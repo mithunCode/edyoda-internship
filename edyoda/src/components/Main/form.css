@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 501px;
+}
+.text-field1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  isolation: isolate;
+
+  width: 501px;
+  height: 40px;
+
+  background: #e7e7e7;
+  border: 2px solid #bebebe;
+  border-radius: 4px;
+}
+.text-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  isolation: isolate;
+
+  width: 501px;
+  height: 40px;
+
+  background: white;
+  border: 2px solid #bebebe;
+  border-radius: 4px;
+}
+.rd-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  width: 425px;
+  height: 33px;
+}
+
+.sub-text {
+  width: 212px;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #bebebe;
+}
+.sub-text-2 {
+  width: 212px;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
+
+.rd-right-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 62px;
+  height: 33px;
+}
+.rd-right-top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+
+  width: 62px;
+  height: 19px;
+}
+.total {
+  width: 27px;
+  height: 16px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
+.amt {
+  width: 67px;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
+.rd-right-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 8px;
+
+  width: 40px;
+  height: 14px;
+}
+.rd-month-total {
+  width: 63px;
+  height: 14px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
+
+.per-mon {
+  width: 19px;
+  height: 12px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  /* identical to box height, or 12px */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
+
+.rd-text-container > .tag {
+  position: absolute;
+  margin-top: -60px;
+  width: 121px;
+  height: 16px;
+
+  background: #f77171;
+  border-radius: 0px 0px 4px 4px;
+}
+.tag-text {
+  position: absolute;
+  width: 93px;
+  height: 14px;
+  left: 29px;
+  top: 1px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.rd-text-container > .tag {
+  position: absolute;
+  margin-top: -60px;
+  width: 121px;
+  height: 16px;
+
+  background: #f77171;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.tag-text {
+  position: absolute;
+  width: 93px;
+  height: 14px;
+  left: 29px;
+  top: 1px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.tag-text-2 {
+  position: absolute;
+  margin-top: -60px;
+  width: 121px;
+  height: 16px;
+  background: #47ba68;
+  border-radius: 0px 0px 4px 4px;
+}
